@@ -1,0 +1,21 @@
+@startuml
+
+
+
+class ctaegsad{
+    - int : id(434)
+    + string : hghg
+    ~ BOOLEn : FRce 
+
+}
+
+class aHSJahs{
+     - int : id
+    + string : hghg
+    ~ ctaegsad : id_aHSJahs 
+}
+
+
+ctaegsad "1" -- "2" aHSJahs : tienen
+
+@endulm
