@@ -38,15 +38,15 @@
 
 | id | marca         | garantia | cilindraje | id_categorias_de_carros | descripción|
 |----|---------------|----------|------------|-------------------------|------------|
-| 1  |         bmw   | 1 año    |3000        |  1                      | ideal      |
-| 2  | toyota        | 2 años   |2000        |  2                      | ideal      |
-| 3  | bugati        | 4 años   |6000        |  3                      | ideal      |
+| 1  |    bmw        | 1 año    |3000        |  1                      | ideal      |
+| 2  |   toyota      | 2 años   |2000        |  2                      | ideal      |
+| 3  |   bugati      | 4 años   |6000        |  3                      | ideal      |
 
 `persona`: En esta tabla se almacenara de maneta autoincremental y automatica los clientes.
 
 | id | nombre        | apellido | telefono | dirección   | documento|
 |----|---------------|----------|----------|-------------|----------|
-| 1  |    jose       | vargas   |3145789   | cr 11 24 sur| 1547920  |
+| 1  |    jose       | vargas   |3145789   | cll 11 24   | 1543820  |
 | 2  |  leonardo     | herrera  |3256879   | cll 1 18    | 1578928  |
 | 3  |  julian       | romero   |3147899   | cr 12 78 sur| 1687872  |
 
@@ -54,9 +54,9 @@
 
 | id | id_autos | id_persona | descripción |
 |----|----------|------------|-------------|
-| 1  |  1       |   1        |idal         |
-| 2  |  2       |   2        |idal         |
-| 3  |  3       |   3        |idal         |
+| 1  |  1       |   1        |comprado     |
+| 2  |  2       |   2        |comprado     |
+| 3  |  3       |   3        |comprado     |
 
 
 > Script de la base de datos
