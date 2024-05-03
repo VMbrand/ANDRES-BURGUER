@@ -1,21 +1,39 @@
 @startuml
 
-
-
-class ctaegsad{
-    - int : id(434)
-    + string : hghg
-    ~ BOOLEn : FRce 
-
+class categorias_de_carros{
+    - int : id
+    - String : categoria
+    - String : tipo_vehiculo
+    - String : descripción
 }
 
-class aHSJahs{
-     - int : id
-    + string : hghg
-    ~ ctaegsad : id_aHSJahs 
+class autos{
+    - int : id
+    - String : marca
+    - String : garantia
+    - String : cilindraje
+    - categorias_de_carros : id_categorias_de_carros
+    - String : descripción
 }
 
+class persona{
+    - int : id
+    - String : nombre
+    - String : apellido
+    - int : telefono
+    - String : dirección
+    - int : documento
+}
 
-ctaegsad "1" -- "2" aHSJahs : tienen
+class autos_persona{
+    - int : id
+    - autos: id_autos
+    - persona : id_persona
+    - String : descripción
+}
 
-@endulm
+persona "1" -- "*" autos_persona : tiene 
+autos "1" -- "*" categorias_de_carros : tiene 
+autos "1" -- "*" autos_persona: tienen
+
+@enduml
