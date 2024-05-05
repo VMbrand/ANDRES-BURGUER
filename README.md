@@ -11,13 +11,13 @@
 
   Requisitos Funcionales
 
-     Interfaz de Usuario:
-     El sitio web debe tener una interfaz de usuario intuitiva y fácil de usar.
-     Debe haber una página de inicio que presente información básica sobre el restaurante y sus servicios.
-     Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
-     Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
-     Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
-     Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
+    Interfaz de Usuario:
+    El sitio web debe tener una interfaz de usuario intuitiva y fácil de usar.
+    Debe haber una página de inicio que presente información básica sobre el restaurante y sus servicios.
+    Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
+    Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
+    Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
+    Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
     
    Funcionalidades del Sistema:
      El sistema debe permitir a los administradores del restaurante agregar, editar y eliminar elementos del menú.
