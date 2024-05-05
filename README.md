@@ -1,15 +1,16 @@
 # `ANDRES BURGUER`
 
-#### `Introducción:`
-      Este documento especifica los requisitos del software para el desarrollo de un sitio web para el restaurante "Nombre del Restaurante". El objetivo del sistema es proporcionar a los clientes una plataforma en línea donde puedan ver el menú, realizar pedidos, reservar mesas y obtener información sobre el restaurante. 
+#### Introducción:
+   Este documento especifica los requisitos del software para el desarrollo de un sitio web para el restaurante "Nombre del Restaurante". El objetivo del sistema es proporcionar a los clientes una plataforma en línea donde puedan ver el menú, realizar pedidos, reservar mesas y obtener información sobre el restaurante. 
 
-  `Objetivo:`
+  Objetivo:
     El objetivo del sistema es proporcionar una plataforma para almacenar y gestionar información relacionada con categorías y sus respectivos atributos.
 
-  `Descripción General:`
+  Descripción General:
     El sistema deberá permitir la creación, modificación, eliminación y consulta de datos relacionados con las categorías.
 
-   `Requisitos Funcionales`
+  Requisitos Funcionales
+
      Interfaz de Usuario:
      El sitio web debe tener una interfaz de usuario intuitiva y fácil de usar.
      Debe haber una página de inicio que presente información básica sobre el restaurante y sus servicios.
@@ -18,7 +19,7 @@
      Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
      Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
     
-   `Funcionalidades del Sistema:`
+   Funcionalidades del Sistema:
      El sistema debe permitir a los administradores del restaurante agregar, editar y eliminar elementos del menú.
      Debe haber un sistema de gestión de pedidos que permita a los empleados del restaurante recibir, procesar y completar pedidos en tiempo real.
      El sistema debe enviar notificaciones por correo electrónico a los clientes para confirmar sus pedidos y reservas.
@@ -29,6 +30,7 @@
      Se debe garantizar la seguridad de los datos del cliente mediante el uso de cifrado SSL.
      El sitio web debe tener un tiempo de carga rápido para mejorar la experiencia del usuario.
      Debe ser desarrollado utilizando tecnologías Java y seguir las mejores prácticas de desarrollo web.e tener un tiempo de respuesta rápido para las operaciones de consulta y modificación de  datos.
+   
 
 `categorias_de_carros`:En esta tabla se almanesara Id, Categoria, tipo de vehiculo y descripción.
 
