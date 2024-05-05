@@ -1,4 +1,48 @@
-@startuml
+> Script de la base de datos
+```sql
+    DROP DATABASE IF EXISTS parcial;
+
+    CREATE DATABASE parcial;
+
+    USE parcial;
+
+    CREATE table categorias_de_carros (
+        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+        categoria VARCHAR1(150) NOT NULL UNIQUE,
+        tipo_vehiculo VARCHAR(150) NOT NULL,
+        descripción VARCHAR(150) NOT NULL
+        
+    ); 
+
+    CREATE table autos (
+        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+        marca VARCHAR(150) NOT NULL,
+        garantia DATE NOT NULL,
+        cilindraje INT NOT NULL,
+        FOREIGN KEY (id_categorias_de_carros) REFERENCES categorias_de_carros(id),
+        descripciónVARCHAR(150) NOT NULL
+    ); 
+
+    CREATE table persona (
+        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+        nombre VARCHAR1(150) NOT NULL UNIQUE,
+        apellido VARCHAR(150) NOT NULL,
+        telefono INT NOT NULL,
+        dirección VARCHAR(150) NOT NULL,
+        documento INT NOT NULL
+    ); 
+
+    CREATE table Autos_persona  (
+        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+        FOREIGN KEY (id_autos) REFERENCES autos(id),
+        FOREIGN KEY (id_persona) REFERENCES persona(id),
+        descripción VARCHAR(150) NOT NULL
+        
+    ); 
+```
+
+
+@startuml BaseDatos
 
 class categorias_de_carros{
     - int : id
