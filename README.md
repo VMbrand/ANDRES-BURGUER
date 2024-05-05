@@ -11,16 +11,17 @@
 
   `Requisitos Funcionales:`
 
-    1. Interfaz de Usuario: El sitio web debe tener una interfaz de usuario intuitiva y fácil de usar.
+    Interfaz de Usuario: El sitio web debe tener una interfaz de usuario intuitiva y fácil de usar.
 
-    2. Debe haber una página de inicio que presente información básica sobre el restaurante y sus servicios.
+    1. Debe haber una página de inicio que presente información básica sobre el restaurante y sus servicios.
 
-    3. Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
+    2. Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
 
-    4. Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
+    3. Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
 
-    5. Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
-    Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
+    4. Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
+
+    5.Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
     
    Funcionalidades del Sistema:El sistema debe permitir a los administradores del restaurante agregar, editar y eliminar elementos del menú.
 
@@ -28,12 +29,17 @@
 
     2. El sistema debe enviar notificaciones por correo electrónico a los clientes para confirmar sus pedidos y reservas.
 
-   `Requisitos No Funcionales:`
-     El sitio web debe ser compatible con diferentes navegadores web, incluyendo Chrome, Firefox y Safari.
-     Debe ser responsive, adaptándose a diferentes tamaños de pantalla, como dispositivos móviles y tabletas.
-     Se debe garantizar la seguridad de los datos del cliente mediante el uso de cifrado SSL.
-     El sitio web debe tener un tiempo de carga rápido para mejorar la experiencia del usuario.
-     Debe ser desarrollado utilizando tecnologías Java y seguir las mejores prácticas de desarrollo web.e tener un tiempo de respuesta rápido para las operaciones de consulta y modificación de  datos.
+   `Requisitos No Funcionales:` El sitio web debe ser compatible con diferentes navegadores web, incluyendo Chrome, Firefox y Safari.
+
+    1. Debe ser responsive, adaptándose a diferentes tamaños de pantalla, como dispositivos móviles y tabletas.
+
+    2. Se debe garantizar la seguridad de los datos del cliente mediante el uso de cifrado SSL.
+
+    3. El sitio web debe tener un tiempo de carga rápido para mejorar la experiencia del usuario.
+
+    4. Debe ser desarrollado utilizando tecnologías Java y seguir las mejores prácticas de desarrollo web.
+    
+    5. Tener un tiempo de respuesta rápido para las operaciones de consulta y modificación de  datos.
    
 
 `categorias_de_carros`:En esta tabla se almanesara Id, Categoria, tipo de vehiculo y descripción.
