@@ -3,26 +3,30 @@
 #### Introducción:
    Este documento especifica los requisitos del software para el desarrollo de un sitio web para el restaurante "Nombre del Restaurante". El objetivo del sistema es proporcionar a los clientes una plataforma en línea donde puedan ver el menú, realizar pedidos, reservar mesas y obtener información sobre el restaurante. 
 
-  Objetivo:
+  `Objetivo:`
     El objetivo del sistema es proporcionar una plataforma para almacenar y gestionar información relacionada con categorías y sus respectivos atributos.
 
-  Descripción General:
+  `Descripción General:`
     El sistema deberá permitir la creación, modificación, eliminación y consulta de datos relacionados con las categorías.
 
-  Requisitos Funcionales
+  `Requisitos Funcionales:`
 
-    Interfaz de Usuario:
-    El sitio web debe tener una interfaz de usuario intuitiva y fácil de usar.
-    Debe haber una página de inicio que presente información básica sobre el restaurante y sus servicios.
-    Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
-    Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
-    Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
+    1. Interfaz de Usuario: El sitio web debe tener una interfaz de usuario intuitiva y fácil de usar.
+
+    2. Debe haber una página de inicio que presente información básica sobre el restaurante y sus servicios.
+
+    3. Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
+
+    4. Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
+
+    5. Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
     Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
     
-   Funcionalidades del Sistema:
-     El sistema debe permitir a los administradores del restaurante agregar, editar y eliminar elementos del menú.
-     Debe haber un sistema de gestión de pedidos que permita a los empleados del restaurante recibir, procesar y completar pedidos en tiempo real.
-     El sistema debe enviar notificaciones por correo electrónico a los clientes para confirmar sus pedidos y reservas.
+   Funcionalidades del Sistema:El sistema debe permitir a los administradores del restaurante agregar, editar y eliminar elementos del menú.
+
+    1. Debe haber un sistema de gestión de pedidos que permita a los empleados del restaurante recibir, procesar y completar pedidos en tiempo real.
+
+    2. El sistema debe enviar notificaciones por correo electrónico a los clientes para confirmar sus pedidos y reservas.
 
    `Requisitos No Funcionales:`
      El sitio web debe ser compatible con diferentes navegadores web, incluyendo Chrome, Firefox y Safari.
