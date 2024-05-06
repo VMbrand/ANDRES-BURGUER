@@ -84,7 +84,7 @@
 | 36 | Otros Productos   | Adicionales          |Carne, queso, tocineta, salchicha, huevo frito, chorizo, pollo desmechado, patacón, carne desmechada                                                               |
 | 37 | Otros Productos   | Acompañamientos      |Papa francesa, aros de cebolla, yuquitas, ensalada, tomate relleno, ensalada dulce                                                                                      |
 
-`autos`: En esta tabla se guardara de manera autoincremental y automantica los autos que se ingresen.
+`Reserva`: En esta tabla se guarda la id, datos del cliente, pedido y facturacion.
 
 | id | marca         | garantia | cilindraje | id_categorias_de_carros | descripción|
 |----|---------------|----------|------------|-------------------------|------------|
