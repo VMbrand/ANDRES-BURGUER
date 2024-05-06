@@ -94,6 +94,7 @@
 `Domicilio`: En esta tabla se guardara la id, nombre, apellido, telefono, direccion, documento, descripcion, factura.
 
 | id | nombre | apellido | telefono | direccion | documento | descripcion | factura |
+|----|--------|----------|----------|-----------|-----------|-------------|---------|
 | 1  | Nombre del cliente | Apellido del cliente | Telefono del cliente | Documento del cliente | Descripcion del pedido | Factura de la cuenta total | 
 
 
