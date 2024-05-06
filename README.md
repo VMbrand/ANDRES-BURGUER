@@ -46,12 +46,43 @@
 
 | id | categoria         | tipo_comida    |                              descripción                                   |
 |----|-------------------|----------------|----------------------------------------------------------------------------|
-| 1  | hamburguesa       | clasica        |150gm carne de res, queso, lechuga, tomate, cebolla, salsa de la casa       |
-| 2  | hamburguesa       | Ranchera       |150gm carne de res, tocineta, chorizo, maiz tierno, queso, tomate, cebolla  |
-| 3  | hamburguesa       | Onion Ring's   |150gm carne de res, tocineta, queso, aros de cebolla, lechuga, tomate       |  
-| 4  | hamburguesa       | Callejera      |150gm carne de res, piña, papa ripio, tomate, queso, lechuga, salsa         |
-| 5  | hamburguesa       | Criolla Burguer|150gm carne de res, huevo, tocineta, lechuga, queso, cebolla, tomate, salsa |
-
+| 1  | Hamburguesa       | clasica              |150gm carne de res, queso, lechuga, tomate, cebolla, salsa de la casa                                                                                                |
+| 2  | Hamburguesa       | Ranchera             |150gr de carne de res, tocineta, chorizo, maíz tierno, queso mozzarella, cebolla caramelizada, tomate, lechuga y salsas de la casa                                           |
+| 3  | Hamburguesa       | Onion Ring's         |150gr de carne de res, tocineta, queso mozzarella, aros de cebolla, lechuga, tomate y salsas de la casa                                                                 |
+| 4  | Hamburguesa       | Callejera            |150gr de carne de res, piña caramelizada, papa ripio, cebolla caramelizada, queso mozzarella, tomate, lechuga y salsas de la casa                                 |
+| 5  | Hamburguesa       | Criolla Burger       |150gr de carne de res, huevo frito, tocineta, queso cheddar, cebolla caramelizada, lechuga, tomate y salsas de la casa                                                   |
+| 6  | Hamburguesa       | Andres Burger        |2 tapas de carne de res 150gr c/u cebolla crujiente, queso cheddar, pepinillos, tomate, lechuga y salsa de la casa                                                      |
+| 7  | Hamburguesa       | La Big Burger        |150gm de pechuga de pollo, 150gr de carne de res, doble tocineta, doble queso cheddar, piña caramelizada, aros de cebolla cruda, tomate, lechuga y salsas de la casa        |
+| 8  | Hamburguesa       | Mexicana             |150gr de carne de res, tocineta jalapeños, nachos guacamole casero, queso cheddar, lechuga, tomate y salsas de la casa                                                  |
+| 9  | Hamburguesa       | Pollo Crunch         |150gr de pechuga de pollo empanizada, lechuga, tomate, mayonesa y salsa BBQ                                                                                                 |
+| 10 | Hamburguesa       | Burger Cheddar       |300g de carne de res, doble queso cheddar, plátano maduro, tomate, lechuga y salsa de la casa                                                                          |
+| 11 | Hamburguesa       | Hawaiana Burger      |150g de carne de res, piña asada, queso yaguareño, tocino, tomate, lechuga y salsa de la casa                                                                          |
+| 12 | Hamburguesa       | Argentina            |150gr de carne de res, 120gr de lomito de cerdo, chorizo santarosano, queso mozzarella, chimichurry, tomate, lechuga, salsa de la casa                                    |
+| 13 | Hamburguesa       | Ranchera Doble       |300gr de carne de res, chorizo de las brizas, tocinate, queso cheddar, chimichurry casero, lechuga, tomate y salsas de la casa                                             |
+| 14 | Perros Calientes  | Tradicional          |Salchicha americana, cebolla cruda, queso mozzarella, piña caramelizada, papa ripio                                                                                          |
+| 15 | Perros Calientes  | Mexicano             |Salchicha americana, queso mozzarella, cebolla cruda, nachos picados, guacamole casero y jalapeños                                                                        |
+| 16 | Perros Calientes  | Cheese Corn          |Salchicha americana, envuelta con dos tocinetas, cebolla grille y queso fundido con maiz tierno                                                                             |
+| 17 | Perros Calientes  | Ranchero             |Salchicha americana, carne desmechada, maíz tierno, cebolla cruda y queso mozzarella                                                                                    |
+| 18 | Perros Calientes  | Chori Americano      |Chorizo artesanal, cebolla cruda, queso mozzarella, papa ripio, salsa de tomate y mostaza                                                                                    |
+| 19 | Bebidas           | Coca-Cola            |Coca-Cola 400 mili litros                                                                                              |
+| 20 | Bebidas           | Coca-Cola            |Coca-Cola 1.5 litros                                                                                              |
+| 21 | Bebidas           | Limonadas            |Limonada de Coco, Cereza, Natural                                                                                             |
+| 22 | Bebidas           | Jugos Hit            |Jugos Hit de todos los sabores disponibles                                                                                         |
+| 23 | Bebidas           | Agua en botella      |Agua en Botella                                                                                             |
+| 24 | Bebidas           | Gaseosa              |Gaseosas de 1.5 litros                                                                                              |
+| 25 | Otros Productos   | Alitas X10           |10 unidades de alitas bañadas en tu salsa favorita acompañada de papa a la francesa                                                                                         |
+| 26 | Otros Productos   | Alitas X20           |20 unidades de alitas bañadas en tu salsa favorita acompañada de papa a la francesa o cascos de papa                                                                        |
+| 27 | Otros Productos   | Finger de Pollo      |Tiras de pechuga pollo apanadas con pan o acompañadas de papa francesa o yucas fritas y ensalada de la casa                                                                  |
+| 28 | Otros Productos   | Brocheta de lommito  |Brocheta de lomito fino con chimichurry acompañado de papa francesa o yuca y nuestro tomate relleno de puré de papa y queso gratinado                                     |
+| 29 | Otros Productos   | Costillas            |100gr de carne desmechada 100gr de pollo desmechado, queso mozzarella, tocineta, maíz desgranado y salsas de la casa                                                       |
+| 30 | Otros Productos   | Churrasco            |300gr de lomo ancho, acompañado de papas a la francesa o cascos de papa, patacona, ensalada dulce o ensalada                                                                 |
+| 31 | Otros Productos   | Mazorcada            |100gr de carne desmechada, 100gr de pollo desmechado, queso mozzarella, tocineta, maíz desgranado y salsas de la casa                                                       |
+| 32 | Otros Productos   | Salchipapa           |250gr de papa a la francesa, 2 unidades de salchicha americana y queso                                                                                               |
+| 33 | Otros Productos   | Mazorcada            |Chips de platanitos maduros con pollo desmechado, carne desmechada, tiras de tocineta, una combinación de maíz tierno y maiz recién desgranado, queso fundido y chips de papas|
+| 34 | Otros Productos   | Mega papitas Andres  |250gr de papas fritas, pollo desmechado, chorizo ​​casero, salchicha americana, salsa de la casa, queso derretido y guacamole casero                                     |
+| 35 | Otros Productos   | Papitas Andres Burger|250gr de papas fritas, 100gr de carne deshebrada, 100gr de pollo deshebrado y guacamole casero                                                                       |
+| 36 | Otros Productos   | Adicionales          |Carne, queso, tocineta, salchicha, huevo frito, chorizo, pollo desmechado, patacón, carne desmechada                                                               |
+| 37 | Otros Productos   | Acompañamientos      |Papa francesa, aros de cebolla, yuquitas, ensalada, tomate relleno, ensalada dulce                                                                                      |
 
 `autos`: En esta tabla se guardara de manera autoincremental y automantica los autos que se ingresen.
 
