@@ -86,13 +86,14 @@
 
 `Reserva`: En esta tabla se guarda la id, datos del cliente, pedido y facturacion.
 
-| id | marca         | garantia | cilindraje | id_categorias_de_carros | descripción|
+| id | Datos_cliente | Pedido | Facturación | Descripcion|
+| 1  | Nombre y apellido | Pedido anticipado | Facturación | Descripcion del pedido |
 
 
-`Domicilio`: En esta tabla se almacenara de maneta autoincremental y automatica los clientes.
+`Domicilio`: En esta tabla se guardara la id, nombre, apellido, telefono, direccion, documento, descripcion, factura.
 
-| id | nombre        | apellido | telefono | dirección   | documento|
-|----|---------------|----------|----------|-------------|----------|
+| id | nombre | apellido | telefono | direccion | documento | descripcion | factura |
+| 1  | Nombre del cliente | Apellido del cliente | Telefono del cliente | Documento del cliente | Descripcion del pedido | Factura de la cuenta total | 
 
 
 

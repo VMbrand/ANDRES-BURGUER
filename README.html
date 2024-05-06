@@ -379,11 +379,11 @@ El sistema deberá permitir la creación, modificación, eliminación y consulta
 
 2. Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
 
-3. Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
+3. Los usuarios deben poder agregar elementos para realizar pedidos.
 
 4. Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
 
-5.Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
+5.Los clientes deben poder registrarse.
 </code></pre>
 <p>Funcionalidades del Sistema:El sistema debe permitir a los administradores del restaurante agregar, editar y eliminar elementos del menú.</p>
 <pre><code>1. Debe haber un sistema de gestión de pedidos que permita a los empleados del restaurante recibir, procesar y completar pedidos en tiempo real.
@@ -401,77 +401,245 @@ El sistema deberá permitir la creación, modificación, eliminación y consulta
 
 5. Tener un tiempo de respuesta rápido para las operaciones de consulta y modificación de  datos.
 </code></pre>
-<p><code>categorias_de_carros</code>:En esta tabla se almanesara Id, Categoria, tipo de vehiculo y descripción.</p>
+<p><code>Categoria de comida</code>:En esta tabla se almanesara Id, Categoria, tipo de comida y descripción.</p>
 <table>
 <thead>
 <tr>
 <th>id</th>
 <th>categoria</th>
-<th>tipo_vehiculo</th>
+<th>tipo_comida</th>
 <th>descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>alto cilindraje</td>
-<td>deportivo</td>
-<td>idal</td>
+<td>Hamburguesa</td>
+<td>clasica</td>
+<td>150gm carne de res, queso, lechuga, tomate, cebolla, salsa de la casa</td>
 </tr>
 <tr>
 <td>2</td>
-<td>alto cilindraje</td>
-<td>trocha</td>
-<td>idal</td>
+<td>Hamburguesa</td>
+<td>Ranchera</td>
+<td>150gr de carne de res, tocineta, chorizo, maíz tierno, queso mozzarella, cebolla caramelizada, tomate, lechuga y salsas de la casa</td>
 </tr>
 <tr>
 <td>3</td>
-<td>alto cilindraje</td>
-<td>deportivo</td>
-<td>idal</td>
+<td>Hamburguesa</td>
+<td>Onion Ring's</td>
+<td>150gr de carne de res, tocineta, queso mozzarella, aros de cebolla, lechuga, tomate y salsas de la casa</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hamburguesa</td>
+<td>Callejera</td>
+<td>150gr de carne de res, piña caramelizada, papa ripio, cebolla caramelizada, queso mozzarella, tomate, lechuga y salsas de la casa</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hamburguesa</td>
+<td>Criolla Burger</td>
+<td>150gr de carne de res, huevo frito, tocineta, queso cheddar, cebolla caramelizada, lechuga, tomate y salsas de la casa</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Hamburguesa</td>
+<td>Andres Burger</td>
+<td>2 tapas de carne de res 150gr c/u cebolla crujiente, queso cheddar, pepinillos, tomate, lechuga y salsa de la casa</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Hamburguesa</td>
+<td>La Big Burger</td>
+<td>150gm de pechuga de pollo, 150gr de carne de res, doble tocineta, doble queso cheddar, piña caramelizada, aros de cebolla cruda, tomate, lechuga y salsas de la casa</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hamburguesa</td>
+<td>Mexicana</td>
+<td>150gr de carne de res, tocineta jalapeños, nachos guacamole casero, queso cheddar, lechuga, tomate y salsas de la casa</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hamburguesa</td>
+<td>Pollo Crunch</td>
+<td>150gr de pechuga de pollo empanizada, lechuga, tomate, mayonesa y salsa BBQ</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Hamburguesa</td>
+<td>Burger Cheddar</td>
+<td>300g de carne de res, doble queso cheddar, plátano maduro, tomate, lechuga y salsa de la casa</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Hamburguesa</td>
+<td>Hawaiana Burger</td>
+<td>150g de carne de res, piña asada, queso yaguareño, tocino, tomate, lechuga y salsa de la casa</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Hamburguesa</td>
+<td>Argentina</td>
+<td>150gr de carne de res, 120gr de lomito de cerdo, chorizo santarosano, queso mozzarella, chimichurry, tomate, lechuga, salsa de la casa</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Hamburguesa</td>
+<td>Ranchera Doble</td>
+<td>300gr de carne de res, chorizo de las brizas, tocinate, queso cheddar, chimichurry casero, lechuga, tomate y salsas de la casa</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Perros Calientes</td>
+<td>Tradicional</td>
+<td>Salchicha americana, cebolla cruda, queso mozzarella, piña caramelizada, papa ripio</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Perros Calientes</td>
+<td>Mexicano</td>
+<td>Salchicha americana, queso mozzarella, cebolla cruda, nachos picados, guacamole casero y jalapeños</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Perros Calientes</td>
+<td>Cheese Corn</td>
+<td>Salchicha americana, envuelta con dos tocinetas, cebolla grille y queso fundido con maiz tierno</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Perros Calientes</td>
+<td>Ranchero</td>
+<td>Salchicha americana, carne desmechada, maíz tierno, cebolla cruda y queso mozzarella</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Perros Calientes</td>
+<td>Chori Americano</td>
+<td>Chorizo artesanal, cebolla cruda, queso mozzarella, papa ripio, salsa de tomate y mostaza</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Bebidas</td>
+<td>Coca-Cola</td>
+<td>Coca-Cola 400 mili litros</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Bebidas</td>
+<td>Coca-Cola</td>
+<td>Coca-Cola 1.5 litros</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Bebidas</td>
+<td>Limonadas</td>
+<td>Limonada de Coco, Cereza, Natural</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Bebidas</td>
+<td>Jugos Hit</td>
+<td>Jugos Hit de todos los sabores disponibles</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Bebidas</td>
+<td>Agua en botella</td>
+<td>Agua en Botella</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Bebidas</td>
+<td>Gaseosa</td>
+<td>Gaseosas de 1.5 litros</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Otros Productos</td>
+<td>Alitas X10</td>
+<td>10 unidades de alitas bañadas en tu salsa favorita acompañada de papa a la francesa</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Otros Productos</td>
+<td>Alitas X20</td>
+<td>20 unidades de alitas bañadas en tu salsa favorita acompañada de papa a la francesa o cascos de papa</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Otros Productos</td>
+<td>Finger de Pollo</td>
+<td>Tiras de pechuga pollo apanadas con pan o acompañadas de papa francesa o yucas fritas y ensalada de la casa</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Otros Productos</td>
+<td>Brocheta de lommito</td>
+<td>Brocheta de lomito fino con chimichurry acompañado de papa francesa o yuca y nuestro tomate relleno de puré de papa y queso gratinado</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Otros Productos</td>
+<td>Costillas</td>
+<td>100gr de carne desmechada 100gr de pollo desmechado, queso mozzarella, tocineta, maíz desgranado y salsas de la casa</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Otros Productos</td>
+<td>Churrasco</td>
+<td>300gr de lomo ancho, acompañado de papas a la francesa o cascos de papa, patacona, ensalada dulce o ensalada</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Otros Productos</td>
+<td>Mazorcada</td>
+<td>100gr de carne desmechada, 100gr de pollo desmechado, queso mozzarella, tocineta, maíz desgranado y salsas de la casa</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Otros Productos</td>
+<td>Salchipapa</td>
+<td>250gr de papa a la francesa, 2 unidades de salchicha americana y queso</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Otros Productos</td>
+<td>Mazorcada</td>
+<td>Chips de platanitos maduros con pollo desmechado, carne desmechada, tiras de tocineta, una combinación de maíz tierno y maiz recién desgranado, queso fundido y chips de papas</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Otros Productos</td>
+<td>Mega papitas Andres</td>
+<td>250gr de papas fritas, pollo desmechado, chorizo ​​casero, salchicha americana, salsa de la casa, queso derretido y guacamole casero</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Otros Productos</td>
+<td>Papitas Andres Burger</td>
+<td>250gr de papas fritas, 100gr de carne deshebrada, 100gr de pollo deshebrado y guacamole casero</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Otros Productos</td>
+<td>Adicionales</td>
+<td>Carne, queso, tocineta, salchicha, huevo frito, chorizo, pollo desmechado, patacón, carne desmechada</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Otros Productos</td>
+<td>Acompañamientos</td>
+<td>Papa francesa, aros de cebolla, yuquitas, ensalada, tomate relleno, ensalada dulce</td>
 </tr>
 </tbody>
 </table>
-<p><code>autos</code>: En esta tabla se guardara de manera autoincremental y automantica los autos que se ingresen.</p>
-<table>
-<thead>
-<tr>
-<th>id</th>
-<th>marca</th>
-<th>garantia</th>
-<th>cilindraje</th>
-<th>id_categorias_de_carros</th>
-<th>descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>bmw</td>
-<td>1 año</td>
-<td>3000</td>
-<td>1</td>
-<td>ideal</td>
-</tr>
-<tr>
-<td>2</td>
-<td>toyota</td>
-<td>2 años</td>
-<td>2000</td>
-<td>2</td>
-<td>ideal</td>
-</tr>
-<tr>
-<td>3</td>
-<td>bugati</td>
-<td>4 años</td>
-<td>6000</td>
-<td>3</td>
-<td>ideal</td>
-</tr>
-</tbody>
-</table>
-<p><code>persona</code>: En esta tabla se almacenara de maneta autoincremental y automatica los clientes.</p>
+<p><code>Reserva</code>: En esta tabla se guarda la id, datos del cliente, pedido y facturacion.</p>
+<p>| id | Datos_cliente | Pedido | Facturación | Descripcion|
+| 1  | Nombre y apellido | Pedido anticipado | Facturación | Descripcion del pedido |</p>
+<p><code>Domicilio</code>: En esta tabla se guardara .</p>
 <table>
 <thead>
 <tr>
@@ -483,65 +651,9 @@ El sistema deberá permitir la creación, modificación, eliminación y consulta
 <th>documento</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>jose</td>
-<td>vargas</td>
-<td>3145789</td>
-<td>cll 11 24</td>
-<td>1543820</td>
-</tr>
-<tr>
-<td>2</td>
-<td>leonardo</td>
-<td>herrera</td>
-<td>3256879</td>
-<td>cll 1 18</td>
-<td>1578928</td>
-</tr>
-<tr>
-<td>3</td>
-<td>julian</td>
-<td>romero</td>
-<td>3147899</td>
-<td>cr 12 78 sur</td>
-<td>1687872</td>
-</tr>
-</tbody>
+<tbody></tbody>
 </table>
-<p><code>Autos_persona</code></p>
-<table>
-<thead>
-<tr>
-<th>id</th>
-<th>id_autos</th>
-<th>id_persona</th>
-<th>descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>comprado</td>
-</tr>
-<tr>
-<td>2</td>
-<td>2</td>
-<td>2</td>
-<td>comprado</td>
-</tr>
-<tr>
-<td>3</td>
-<td>3</td>
-<td>3</td>
-<td>comprado</td>
-</tr>
-</tbody>
-</table>
-<p><img src="jojo/base.png" alt="vista"></p>
+<p><img src="jojo/BaseCarlosV1.png" alt="vista"></p>
 <p><a href="https://trello.com/b/epoUPRg2/parcial">ingresar</a></p>
 
 </body>
