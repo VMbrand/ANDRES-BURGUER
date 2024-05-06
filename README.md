@@ -42,13 +42,15 @@
     5. Tener un tiempo de respuesta rápido para las operaciones de consulta y modificación de  datos.
    
 
-`categorias_de_carros`:En esta tabla se almanesara Id, Categoria, tipo de vehiculo y descripción.
+`Categoria de comida`:En esta tabla se almanesara Id, Categoria, tipo de comida y descripción.
 
-| id | categoria         | tipo_vehiculo | descripción |
-|----|-------------------|---------------|-------------|
-| 1  | alto cilindraje   |deportivo      | idal        |
-| 2  | alto cilindraje   |trocha         |idal         |
-| 3  | alto cilindraje   |deportivo      |idal         |
+| id | categoria         | tipo_comida    |                              descripción                                   |
+|----|-------------------|----------------|----------------------------------------------------------------------------|
+| 1  | hamburguesa       | clasica        |150gm carne de res, queso, lechuga, tomate, cebolla, salsa de la casa       |
+| 2  | hamburguesa       | Ranchera       |150gm carne de res, tocineta, chorizo, maiz tierno, queso, tomate, cebolla  |
+| 3  | hamburguesa       | Onion Ring's   |150gm carne de res, tocineta, queso, aros de cebolla, lechuga, tomate      
+| 4  | hamburguesa       | Callejera      |150gm carne de res, piña, papa ripio, tomate, queso, lechuga, salsa         |
+| 5  | hamburguesa       | Criolla Burguer|150gm carne de res, huevo, tocineta, lechuga, queso, cebolla, tomate, salsa |
 
 
 `autos`: En esta tabla se guardara de manera autoincremental y automantica los autos que se ingresen.
