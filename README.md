@@ -80,6 +80,6 @@
 
 
 
-![vista](jojo/base.png)
+![vista](jojo/BaseCarlosV1.png)
 
 [ingresar](https://trello.com/b/epoUPRg2/parcial)
