@@ -87,6 +87,7 @@
 `Reserva`: En esta tabla se guarda la id, datos del cliente, pedido y facturacion.
 
 | id | Datos_cliente | Pedido | Facturación | Descripcion|
+|----|---------------|--------|-------------|------------|
 | 1  | Nombre y apellido | Pedido anticipado | Facturación | Descripcion del pedido |
 
 
