@@ -17,11 +17,11 @@
 
     2. Se debe proporcionar una página de menú que muestre los platos disponibles, sus descripciones y precios.
 
-    3. Los usuarios deben poder agregar elementos al carrito de compras y realizar pedidos.
+    3. Los usuarios deben poder agregar elementos para realizar pedidos.
 
     4. Debe haber una página de reserva de mesa donde los usuarios puedan seleccionar la fecha, hora y número de comensales.
 
-    5.Los clientes deben poder registrarse e iniciar sesión en sus cuentas.
+    5.Los clientes deben poder registrarse.
     
    Funcionalidades del Sistema:El sistema debe permitir a los administradores del restaurante agregar, editar y eliminar elementos del menú.
 
