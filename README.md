@@ -48,7 +48,7 @@
 |----|-------------------|----------------|----------------------------------------------------------------------------|
 | 1  | hamburguesa       | clasica        |150gm carne de res, queso, lechuga, tomate, cebolla, salsa de la casa       |
 | 2  | hamburguesa       | Ranchera       |150gm carne de res, tocineta, chorizo, maiz tierno, queso, tomate, cebolla  |
-| 3  | hamburguesa       | Onion Ring's   |150gm carne de res, tocineta, queso, aros de cebolla, lechuga, tomate      
+| 3  | hamburguesa       | Onion Ring's   |150gm carne de res, tocineta, queso, aros de cebolla, lechuga, tomate       |  
 | 4  | hamburguesa       | Callejera      |150gm carne de res, piña, papa ripio, tomate, queso, lechuga, salsa         |
 | 5  | hamburguesa       | Criolla Burguer|150gm carne de res, huevo, tocineta, lechuga, queso, cebolla, tomate, salsa |
 
