@@ -99,6 +99,6 @@
 
 
 
-![vista](jojo/BaseCarlosV1.png)
+![vista](jojo/BaseCarlosV2.png)
 
 [ingresar](https://trello.com/b/epoUPRg2/parcial)

@@ -59,13 +59,22 @@ class Facturacion{
     - String : metodo_pago
 }
 
+class Historial_pedidos{
+    - int : id
+    - String : tipo_pedido
+    - Facturacion : metodo_pago
+    - Categoria_de_comida : tipo_comida
+}
+
 class Reserva{
     - int : id
     - String : nombre
     - String : apellido
     - String : fecha_hora
     - String : cant_personas
-    - Categoria_de_comida : id_categorias_de_comidas 
+    - Categoria_de_comida : id_categorias_de_comidas
+    - Facturacion : total_reserva
+    - Facturacion : metodo_pago
 }
 
 class Domicilio{
@@ -76,7 +85,8 @@ class Domicilio{
     - String : dirección
     - int : documento
     - Categoria_de_comida : tipo_comida
-    - Categoria_de_comida : total_comida
+    - Facturacion : total_domicilio
+    - Facturacion : metodo_pago
 }
 
 Categoria_de_comida "1" -- "*" Facturacion : tiene
@@ -84,5 +94,8 @@ Reserva "1" -- "*" Categoria_de_comida : tiene
 Domicilio "1" -- "*" Categoria_de_comida : tiene
 Reserva "1" -- "*" Facturacion : tiene
 Domicilio "1" -- "*" Facturacion : tiene
+Facturacion "1" -- "*" Historial_pedidos : tiene
+Reserva "1" -- "*" Historial_pedidos : tiene
+Domicilio "1" -- "*" Historial_pedidos : tiene 
 
 @enduml
